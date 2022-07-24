@@ -9,7 +9,7 @@ import com.reto.Inventario.Repository.UsuarioRepo;
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
+//Interface para delimitar la llegada directa a UsuarioImplements
 @Service
 public interface UsuarioService {
     List<UsuarioDTO> findAll();

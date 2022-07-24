@@ -2,7 +2,7 @@ package com.reto.Inventario.DTO;
 
 
 import lombok.Data;
-
+//Clase variada de la entidad Usuario para mostrar sólo los datos necesarios excluyendo campos como la clave y estado del usuario
 @Data
 public class UsuarioDTO {
        private String codigo;

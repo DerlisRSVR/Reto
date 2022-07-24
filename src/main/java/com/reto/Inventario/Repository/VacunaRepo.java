@@ -5,17 +5,15 @@
  */
 package com.reto.Inventario.Repository;
 
-import com.reto.Inventario.Entities.Usuario;
-import java.util.HashMap;
-import java.util.List;
+import com.reto.Inventario.Entities.Vacuna;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
 /**
- *Interface de UsuarioRepo para usar los métodos de JpaRepository con la entidad Usuario
+ *Interface de VacunaRepo para usar los métodos de JpaRepository con la entidad Vacuna
  * @author steev
  */
 @Repository
-public interface UsuarioRepo extends JpaRepository<Usuario, Integer> {	
-    public List<Usuario> getByestadoUsu(Integer estadoUsu);
+public interface VacunaRepo extends JpaRepository<Vacuna, Integer> {
+    
 }
