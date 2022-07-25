@@ -15,7 +15,7 @@ A list of technologies used within the project:
 * [Spring Boot]: Versión 2.7.2
 * [Maven]: 
 * [JPA]: 
-* [Java]: Version JDK 11
+* [Java]: Version OpenJDK 11
 * [PostgreSQL]: Version 13.2
 * [Hibernate] 5.6.10
 * [Swagger openapi] 1.6.4
